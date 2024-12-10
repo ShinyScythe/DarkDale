@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: e107bbfa4330de649b7aba7a3e2b3f67
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 297320
+  packageName: PurrNet
+  packageVersion: 1.1.2
+  assetPath: Assets/PurrNet/Tests/Tests.asmdef
+  uploadId: 714125

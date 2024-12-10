@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 514215d8bdcf1ef45b30c10a116af712
+AssetOrigin:
+  serializedVersion: 1
+  productId: 297320
+  packageName: PurrNet
+  packageVersion: 1.1.2
+  assetPath: Assets/PurrNet/Runtime/CoreModules/Hierarchy/HierarchyModule.cs
+  uploadId: 714125

@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 1be75f7886812ec42847c0e0a77f341c
+AssetOrigin:
+  serializedVersion: 1
+  productId: 297320
+  packageName: PurrNet
+  packageVersion: 1.1.2
+  assetPath: Assets/PurrNet/Externals/7zip/Compress/RangeCoder/RangeCoderBitTree.cs
+  uploadId: 714125

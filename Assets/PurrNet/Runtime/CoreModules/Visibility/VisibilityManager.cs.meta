@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: a8e221e3ae43edb47a3f4e06c0791fdc
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 297320
+  packageName: PurrNet
+  packageVersion: 1.1.2
+  assetPath: Assets/PurrNet/Runtime/CoreModules/Visibility/VisibilityManager.cs
+  uploadId: 714125
