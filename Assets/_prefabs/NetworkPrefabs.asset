@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: NetworkPrefabs
   m_EditorClassIdentifier: 
   autoGenerate: 1
-  networkOnly: 0
+  networkOnly: 1
   folder: {fileID: 102900000, guid: 9a6013610a0cde246a843fd07aa88ab3, type: 3}
   prefabs:
   - {fileID: 7210267626797992798, guid: 33c213639ceee7e4fb66f5a372698281, type: 3}

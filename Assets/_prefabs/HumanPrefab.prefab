@@ -1616,8 +1616,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1512170172426395707}
-  - component: {fileID: 4037708154772244830}
-  - component: {fileID: 9110314427532986007}
+  - component: {fileID: 2942469728552926029}
+  - component: {fileID: 3309077190520616508}
   m_Layer: 0
   m_Name: MaleModel
   m_TagString: Untagged
@@ -1643,7 +1643,7 @@ Transform:
   - {fileID: 507481879622335629}
   m_Father: {fileID: 8930515590624473950}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!95 &4037708154772244830
+--- !u!95 &2942469728552926029
 Animator:
   serializedVersion: 7
   m_ObjectHideFlags: 0
@@ -1665,7 +1665,7 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &9110314427532986007
+--- !u!114 &3309077190520616508
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1679,9 +1679,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _networkRules: {fileID: 0}
   _visitiblityRules: {fileID: 0}
-  _animator: {fileID: 4037708154772244830}
+  _animator: {fileID: 2942469728552926029}
   _ownerAuth: 1
-  _autoSyncParameters: 1
+  _autoSyncParameters: 0
 --- !u!1 &2296332586019348799
 GameObject:
   m_ObjectHideFlags: 0
@@ -6214,7 +6214,6 @@ GameObject:
   - component: {fileID: 7490126386504469863}
   - component: {fileID: 2060298819018818758}
   - component: {fileID: 7550912784864406809}
-  - component: {fileID: 169663776282137281}
   m_Layer: 0
   m_Name: HumanPrefab
   m_TagString: Untagged
@@ -6280,7 +6279,7 @@ MonoBehaviour:
   gravity: 20
   lookSpeed: 2
   lookXLimit: 60
-  animator: {fileID: 4037708154772244830}
+  animator: {fileID: 3309077190520616508}
   canMove: 1
   cursorLocked: 0
   cameraYOffset: 0.4
@@ -6321,7 +6320,6 @@ MonoBehaviour:
     m_Bits: 64
   pickupDistance: 5
   pickupButton: 101
-  worldObjectContainer: {fileID: 0}
 --- !u!143 &7497015637605575361
 CharacterController:
   m_ObjectHideFlags: 0
@@ -6389,10 +6387,10 @@ MonoBehaviour:
   _toActivate: []
   _toDeactivate: []
   _toEnable:
-  - {fileID: 9200370178180466375}
   - {fileID: 5503115188191086644}
-  - {fileID: 4037708154772244830}
+  - {fileID: 8970021841378504802}
   - {fileID: 8336488861830341727}
+  - {fileID: 9200370178180466375}
   _toDisable: []
 --- !u!114 &7550912784864406809
 MonoBehaviour:
@@ -6409,23 +6407,6 @@ MonoBehaviour:
   _networkRules: {fileID: 0}
   _visitiblityRules: {fileID: 0}
   _guid: 33c213639ceee7e4fb66f5a372698281
---- !u!114 &169663776282137281
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7210267626797992798}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e7b598b9d8509d64abb9fdaf07fa3f6e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _networkRules: {fileID: 0}
-  _visitiblityRules: {fileID: 0}
-  _animator: {fileID: 4037708154772244830}
-  _ownerAuth: 1
-  _autoSyncParameters: 1
 --- !u!1 &7244093071935282141
 GameObject:
   m_ObjectHideFlags: 0

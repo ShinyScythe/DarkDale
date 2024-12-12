@@ -12,7 +12,7 @@ public class PlayerController : NetworkBehaviour
     public float lookXLimit = 60.0f;
 
     CharacterController characterController;
-    public Animator animator;
+    public NetworkAnimator animator;
 
     Vector3 moveDirection = Vector3.zero;
     float rotationX = 0;
@@ -43,6 +43,8 @@ public class PlayerController : NetworkBehaviour
 
     void Start()
     {
+        enabled = isOwner;
+        
         // Sets camera to each local player
         playerCamera = Camera.main;
         playerCamera.transform.position = new Vector3(transform.position.x, transform.position.y + cameraYOffset, transform.position.z);
