@@ -24,7 +24,8 @@ This build is for **Research and Development**. I am excited to share my progres
 ### Multiplayer Functionality
   - Clients can independently interact with objects in the game world.  
   - Players are assigned unique names to distinguish them in the multiplayer environment
-  - Players have personal inventory  
+  - Players have personal inventory
+  - Players animations are independent
 
 ---
 
