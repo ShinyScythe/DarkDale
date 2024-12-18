@@ -33,6 +33,12 @@ This build is for **Research and Development**. I am excited to share my progres
 
   - Dedicated hosting for global connectivity.
   - Enhanced interactions between players.
+  - Class specific skills
+  - Character customization
+  - Solar systems (timed enhancements)
+  - Community gathering events
+  - Personal housing
+
 - **Gameplay Additions:**
 
   - Combat mechanics and unique class skills
