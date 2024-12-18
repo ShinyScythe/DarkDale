@@ -4,7 +4,7 @@ DarkDale is a multiplayer adventure game currently in development.
 
 Set in an underground world, DarkDale aims to provide a dark take on first person role playing game with fast paced combat, cooperative play, and rich storytelling.
 
-This build is for **Research and Development**. I am excited to share my progress with you, and your feedback is invaluable as I continue to build the world surrounding DarkDale.
+This build is for **Research and Development**. I am excited to share my progress with you, and your feedback is invaluable as I continue to build the world surrounding DarkDale. Upon completing specific benchmarks, I plan to implement full server capabilities (coming very soon) for players to experience ALL new content in real time. 
 
 ---
 
