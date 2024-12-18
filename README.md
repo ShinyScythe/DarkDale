@@ -46,3 +46,12 @@ This build is for **Research and Development**. I am excited to share my progres
 - I will maintain the build files to a playable standard during development
   - Download Build.zip
   - Run Server, and Client(s) 
+
+## Aformentioned Benchmarks
+- Full Server Authority
+- Three player races
+- Three player classes
+- leveling system and logic
+- Blended mobs into ecosytem
+- Zones for hours of content (at least 3 hours).
+- Engaging combat and skill system
