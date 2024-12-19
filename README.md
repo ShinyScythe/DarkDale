@@ -53,7 +53,7 @@ This build is for **Research and Development**. I am excited to share my progres
 ## Testable Builds
 - I will maintain the build files to a playable standard during development
   - Download Build.zip
-  - Run Server, and Client(s) 
+  - Run Host, and Client to test network functionality
 
 ## Aformentioned Benchmarks
 - Full Server Authority
