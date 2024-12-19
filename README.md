@@ -20,6 +20,7 @@ This build is for **Research and Development**. I am excited to share my progres
   - Open inventory with `I`.  
   - Grab objects with `E`.
   - Drop objects by clicking on inventory buttons with `LMB`.
+  - Swing weapon using the `LMB`.
 
 ### Multiplayer Functionality
   - Clients can independently interact with objects in the game world.  
