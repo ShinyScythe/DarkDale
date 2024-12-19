@@ -4,8 +4,8 @@ using PurrNet;
 public class PlayerController : NetworkBehaviour
 {
     [Header("Base setup")]
-    public float walkingSpeed = 3f;
-    public float runningSpeed = 6f;
+    public float walkingSpeed = 2f;
+    public float runningSpeed = 4f;
     public float jumpSpeed = 7.0f;
     public float gravity = 20.0f;
     public float lookSpeed = 2.0f;
@@ -13,6 +13,7 @@ public class PlayerController : NetworkBehaviour
 
     CharacterController characterController;
     public NetworkAnimator animator;
+    public PlayerInventory playerInventory;
 
     Vector3 moveDirection = Vector3.zero;
     float rotationX = 0;
@@ -51,6 +52,7 @@ public class PlayerController : NetworkBehaviour
         playerCamera.transform.SetParent(transform);
 
         characterController = GetComponent<CharacterController>();
+        playerInventory = GetComponent<PlayerInventory>();
 
         // Lock cursor
         ChangeCursorLock();
@@ -110,6 +112,12 @@ public class PlayerController : NetworkBehaviour
             {
                 ChangeCursorLock();
             }
+
+            // TODO: refactor this for a new class
+            if (Input.GetKeyDown(KeyCode.Mouse0)) 
+            { 
+            }
+                
         }
     }
 

@@ -14,6 +14,7 @@ public class PlayerInventory : NetworkBehaviour
     GameObject inventoryPanel; // panel ref
     Transform inventoryGrid; // ref to grid
     public GameObject crosshair;
+    public bool isInventoryOpen;
 
     [SerializeField] GameObject inventoryItem; // item going into inventory
     [SerializeField] KeyCode iventoryButton = KeyCode.I;
@@ -38,6 +39,7 @@ public class PlayerInventory : NetworkBehaviour
         
 
         inventoryPanel.SetActive(false);
+        isInventoryOpen = false;
     }
 
     private void Update()
